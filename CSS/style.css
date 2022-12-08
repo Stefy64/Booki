@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between; /* je garde */
+    align-items: center; /* je garde */
+    color: #0065fc;
+}
+#logo{
+    display: flex;
+    justify-content: left;
+    width: 61.09px;
+    height: 19px;
+    margin-left: 55%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    border-top: #0065fc solid 3px;
+}
+ul{
+    display: flex;
+    justify-content: space-around; /* je garde */
+    align-items: center;
+    list-style-type: none; /* je garde */
+    text-decoration: none;
+    width: 100%;
+    padding: 6% 10% 10% 6%;
+}
