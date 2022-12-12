@@ -2,11 +2,14 @@
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
 }
+#container{
+    max-width: 1400px;
+    margin: auto;
+}
 header{
     display: flex;
     justify-content: space-between; /* je garde */
-    align-items: center; /* je garde */
-    color: #0065fc;
+    align-items: center; /* je garde */   
 }
 #logo{
     display: flex;
@@ -19,14 +22,31 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 25%;
-    border-top: #0065fc solid 3px;
+}
+#bleu:hover{
+    border-top: solid #0065fc;
+    padding-top: 43px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#bleu2:hover{
+    border-top: solid #0065fc;
+    padding-top: 43px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 ul{
     display: flex;
     justify-content: space-around; /* je garde */
-    align-items: center;
+    align-items: center; /* je garde */
     list-style-type: none; /* je garde */
     text-decoration: none;
     width: 100%;
     padding: 6% 10% 10% 6%;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 2%;
 }
