@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/54ccff243b.js" crossorigin="anonymous"></script>
-    <style>a:link{text-decoration:none}</style>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,20 +13,29 @@
 <body>
     <div id="container">
     <!-- En tête -->
-    <header>
-        <p><img id="logo" src="images/Booki.png" alt="logo"></p>
+<header>
+        <img id="logo" src="images/Booki.png" alt="logo">
         <nav>
             <ul>
                 <li><a id="bleu" href="#hébergements">Hébergements</a></li>
                 <li><a id="bleu2" href="#activités">Activités</a></li>
             </ul>
-            </nav>
-    </header>
+        </nav>
+</header>
     <!-- Fin en tête -->
-    <article>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre-ville ou en pleine nature</p>
-    </article>
+<main>
+    <section class="section1">
+        <div>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+        </div>   
+            <form class="search" action="search" method="POST">
+                <span class="localisation"><i class="fa-solid fa-location-dot"></i></span>
+                <input class="texte" type="search" name="recherche" placeholder="Marseille, France">
+                <span class="rechercher">Rechercher</span>
+            </form>
+    </section>   
+</main>
 
 </body>
 </html>
