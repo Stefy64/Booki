@@ -1,0 +1,37 @@
+@media screen and (max-width:600px) {
+#container{
+    width: 600px;
+}
+#logo{
+    display: flex;
+    margin: 40%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+}  
+a:hover{
+    color: #0065fc;
+}
+#bleu:hover{
+    border-bottom: solid #0065fc;
+}
+#bleu2:hover{
+    border-bottom: solid #0065fc;
+}
+#section1{
+    margin: auto;
+}
+#titre{
+    display: flex;
+}
+#section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
