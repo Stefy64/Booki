@@ -6,5 +6,15 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-}   
+}
+h1{
+    font-size: 20px;
+}
+.button{
+    column-gap: 15px;
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+}
 }
