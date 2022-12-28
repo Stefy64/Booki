@@ -142,12 +142,11 @@ input{
     width: 27px;
 }
 #section3{
-    max-width: 830px;
     background-color: #f2f2f2;
     margin-left: 27px;
     margin-top: 25px;
     border-radius: 30px;
-    padding: 20px 20px 20px 20px;
+    padding: 15px 15px 15px 15px;
 }
 h2{
     font-size: 20px;
@@ -171,11 +170,47 @@ h2{
 }
 .card{
     box-shadow: 2px 2px 12px 0;
-    max-width: max-content;
     margin:20px;
     background-color: white;
     border-radius: 20px;
 }
 .infobox{
     font-size: 13px;
+    display: flex;
+}
+#total_block{
+    display: flex;
+}
+#right_block{
+    background-color: #f2f2f2;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+    display: grid;
+}
+.card2{
+    box-shadow: 2px 2px 12px 0;
+    max-width: max-content;
+    margin:20px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+.picture2{
+    object-fit: cover;
+    width: 150px;
+    height: 135px;
+    padding: 5px 28px 5px 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.infobox2{
+    font-size: 13px;
+    width: 180px;
+    
+}
+.icon{
+    margin-left: 120px;
 }

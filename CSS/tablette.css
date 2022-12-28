@@ -2,11 +2,6 @@
 .container{
     max-width: 768px;
 }
-header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-}
 h1{
     font-size: 20px;
 }
@@ -15,6 +10,9 @@ h1{
     margin-left: 10px;
 }
 ul{
+    display: flex;
+}
+#right_block{
     display: flex;
 }
 }
