@@ -137,6 +137,9 @@ input {
   height: 27px;
   width: 27px;
 }
+.none{
+  color: black;
+}
 #section3 {
   background-color: #f2f2f2;
   margin-left: 27px;
@@ -149,12 +152,15 @@ h2 {
   margin-left: 20px;
   margin-bottom: 1px;
 }
+h3{
+  color: black;
+}
 #section3 p {
   margin-left: 20px;
 }
 .box {
   display: flex;
-  margin: 15px auto;
+  margin: 10px auto;
 }
 .picture {
   height: 124px;
@@ -185,14 +191,15 @@ h2 {
 }
 .star_blue2 {
   color: #0065fc;
-  margin-top: 28px;
+  margin-top: 23px;
 }
 .star_blue3 {
   color: #0065fc;
-  margin-top: 48px;
+  margin-top: 43px;
 }
 .bold {
   font-weight: bold;
+  color: black;
   display: flex;
   position: absolute;
 }
@@ -201,7 +208,7 @@ h2 {
 }
 #right_block {
   background-color: #f2f2f2;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-top: 25px;
   border-radius: 30px;
   padding: 15px 15px 15px 15px;
@@ -211,16 +218,16 @@ h2 {
 .card2 {
   box-shadow: 0px 1px 5px 0;
   max-width: max-content;
-  margin: 26px;
+  margin: 25px;
   background-color: white;
   border-radius: 20px;
   display: flex;
 }
 .picture2 {
   object-fit: cover;
-  width: 150px;
-  height: 135px;
-  padding: 5px 15px 5px 5px;
+  width: 135px;
+  height: 127px;
+  padding: 4px 7px 1px 4px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -230,6 +237,7 @@ h2 {
 }
 .night2 {
   margin-top: -11px;
+  color: black;
 }
 .icon {
   margin-left: 120px;
@@ -242,17 +250,18 @@ h2 {
 }
 .lcard {
   display: flex;
+  margin-left: 10px;
 }
 .card3 {
   max-width: max-content;
   border-radius: 20px;
   box-shadow: 0px 1px 3px 0;
-  margin: 26px;
+  margin: 19px;
 }
 .picture3 {
   object-fit: cover;
-  width: 292px;
-  height: 400px;
+  width: 295px;
+  height: 378px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -260,4 +269,18 @@ h2 {
   margin-left: 20px;
   padding-bottom: 5px;
   font-size: 14px;
+}
+.infos2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  margin: 20px 78px 0px 27px;
+  padding: 25px;
+}
+.box1{
+  margin-left: -100px;
+}
+.box2{
+  margin-right: 100px;
 }
