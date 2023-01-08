@@ -4,6 +4,7 @@
 }
 .container {
   max-width: 1400px;
+  margin: auto;
 }
 header {
   display: flex;
@@ -12,38 +13,37 @@ header {
 }
 .logo {
   height: 19px;
-  margin-left: 26px;
+  margin-top: 35px;
 }
 nav {
-  width: 35%;
+  width: 30%;
+  margin-top: 35px;
 }
 a {
   text-decoration: none;
   color: black;
+}
+.blue2{
+  margin-left: 65px;
 }
 a:hover {
   color: #0065fc;
 }
 .blue:hover {
   border-top: solid #0065fc;
-  padding: 43px 10px 10px 0px;
+  padding: 57px 30px 0px 32px;
 }
 .blue2:hover {
   border-top: solid #0065fc;
-  padding: 43px 10px 10px 0px;
+  padding: 57px 25px 10px 30px;
 }
 ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   list-style-type: none;
-  padding: 6% 10% 10% 6%;
-}
-#section1 {
-  margin-left: 26px;
+  font-size: 17px;
 }
 h1 {
-  font-size: 25px;
+  font-size: 21px;
 }
 form {
   display: flex;
@@ -64,7 +64,8 @@ input {
   background-color: #f2f2f2;
 }
 .text {
-  font-size: medium;
+  font-size: 18px;
+  padding-right: 55px;
   font-weight: bold;
 }
 .search {
@@ -86,18 +87,17 @@ input {
   display: none;
 }
 .title {
-  margin-left: 26px;
-  font-size: 15px;
+  font-size: 17px;
 }
 #section2 {
   display: flex;
   align-items: baseline;
-  column-gap: 40px;
+  column-gap: 25px;
   margin-top: 30px;
 }
 .button {
   display: flex;
-  column-gap: 65px;
+  column-gap: 75px;
 }
 .logfilter {
   display: flex;
@@ -121,7 +121,6 @@ input {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  margin-left: 26px;
 }
 .infos {
   margin-left: 15px;
@@ -140,22 +139,25 @@ input {
   color: black;
 }
 #section3 {
+  width: 65%;
   background-color: #f2f2f2;
-  margin-left: 27px;
   margin-top: 25px;
-  border-radius: 30px;
   padding: 15px 15px 15px 15px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
 }
 h2 {
   font-size: 20px;
-  margin-left: 20px;
-  margin-bottom: 1px;
+}
+#hébergements{
+  margin-left: 35px;
 }
 h3{
   color: black;
 }
 #section3 p {
-  margin-left: 20px;
+  margin-left: 60px;
 }
 .box {
   display: flex;
@@ -171,16 +173,18 @@ h3{
 }
 .card {
   box-shadow: 0px 1px 5px 0;
-  margin: 10px 20px 15px 15px;
+  margin: 15px 20px 15px 15px;
   background-color: white;
   border-radius: 20px;
 }
 .infobox {
   font-size: 14px;
-  margin: -20px 0px 5px 13px;
+  margin: -12px 1px 6px 13px;
+  line-height: 10px;
 }
 .night {
-  margin-left: -19px;
+  margin-left: -60px;
+  margin-top: -4px;
 }
 .gras {
   font-weight: bold;
@@ -190,33 +194,35 @@ h3{
 }
 .star_blue2 {
   color: #0065fc;
-  margin-top: 23px;
+  margin-top: 39px;
 }
 .star_blue3 {
   color: #0065fc;
-  margin-top: 43px;
+  margin-top: 32px;
 }
 .bold {
   font-weight: bold;
   color: black;
   display: flex;
-  position: absolute;
+  margin-top: 27px;
 }
 #total_block {
   display: flex;
 }
 #right_block {
   background-color: #f2f2f2;
-  margin-left: 30px;
+  margin-left: 35px;
   margin-top: 25px;
+  padding-top: 20px;
   border-radius: 30px;
   padding: 15px 15px 15px 15px;
-  justify-content: space-between;
   display: grid;
+  justify-items: center;
 }
 .card2 {
+  height: 140px;
+  width: 81%;
   box-shadow: 0px 1px 5px 0;
-  max-width: max-content;
   margin: 25px;
   background-color: white;
   border-radius: 20px;
@@ -224,49 +230,44 @@ h3{
 }
 .picture2 {
   object-fit: cover;
-  width: 135px;
-  height: 127px;
+  width: 145px;
+  height: 137px;
   padding: 4px 7px 1px 4px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 .infobox2 {
-  font-size: 14px;
-  width: 180px;
+  font-size: 15px;
+  margin-left: 10px;
 }
 .night2 {
   margin-top: -11px;
   color: black;
 }
-.icon {
-  margin-left: 120px;
-}
-.activity {
-  margin: 60px 0px 0px 0px;
-}
 .title2 {
   margin-left: 15px;
 }
+#activity2{
+  margin-left: 20px;
+}
 .lcard {
   display: flex;
-  margin-left: 10px;
 }
 .card3 {
-  max-width: max-content;
   border-radius: 20px;
   box-shadow: 0px 1px 3px 0;
-  margin: 19px;
+  margin: 20px;
 }
 .picture3 {
   object-fit: cover;
-  width: 295px;
-  height: 378px;
+  width: 312px;
+  height: 444px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 .infobox3 {
-  margin-left: 20px;
   padding-bottom: 5px;
+  margin-left: 20px;
   font-size: 14px;
 }
 .infos2{
@@ -274,12 +275,11 @@ h3{
   flex-direction: row;
   justify-content: space-around;
   background-color: #f2f2f2;
-  margin: 20px 78px 0px 27px;
   padding: 25px;
 }
-.box1{
-  margin-left: -100px;
-}
 .box2{
-  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+  text-decoration: black;
 }
