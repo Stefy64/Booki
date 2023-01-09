@@ -212,7 +212,7 @@ h3 {
   display: grid;
   justify-items: center;
 }
-.icon {
+.icon{
   margin: 0px 25px 0px 120px;
 }
 .card2 {
@@ -236,7 +236,7 @@ h3 {
   font-size: 15px;
   margin-left: 10px;
 }
-.activity {
+.activity{
   margin-bottom: 35px;
 }
 .night2 {
@@ -246,7 +246,7 @@ h3 {
 .title2 {
   margin-left: 15px;
 }
-.titlebox {
+.titlebox{
   margin-bottom: -10px;
 }
 .lcard {
@@ -314,7 +314,7 @@ h3 {
   h2 {
     font-size: 18px;
   }
-  .icon {
+  .icon{
     position: absolute;
     margin: 0px 0px 0px 580px;
   }
@@ -329,7 +329,7 @@ h3 {
   .star_blue {
     font-size: 13px;
   }
-  .star_blue2 {
+  .star_blue2{
     font-size: 13px;
     margin-top: 38px;
   }
@@ -340,12 +340,12 @@ h3 {
   #right_block {
     padding: 25px 0px 0px 0px;
     display: flex;
-    margin: 0px;
+    margin: 0px
   }
-  .titlebox {
+  .titlebox{
     margin-left: 35px;
   }
-  .block_cards {
+  .block_cards{
     display: flex;
     margin: 0px 0px 0px -68px;
   }
@@ -360,14 +360,14 @@ h3 {
   h3 {
     font-size: 12px;
   }
-  .lcard {
+  .lcard{
     margin: 15px 0px 31px 0px;
   }
   .card2 {
     height: 123px;
     margin: 75px 65px 27px -43px;
   }
-  .card3 {
+  .card3{
     width: 156px;
     height: 225px;
     margin: 15px 15px 15px 18px;
@@ -387,6 +387,7 @@ h3 {
 }
 
 /*CSS MOBILE*/
+
 
 @media screen and (max-width: 600px) {
   .container {
@@ -467,7 +468,7 @@ h3 {
   .log {
     width: 35px;
   }
-  .star_blue {
+  .star_blue{
     font-size: 13px;
     margin-top: -5px;
   }
@@ -476,9 +477,10 @@ h3 {
     margin-top: 37px;
   }
   .star_blue3 {
+
     margin-top: 55px;
   }
-  .night2 {
+  .night2{
     font-size: 15px;
   }
   .infobox2 {
@@ -510,17 +512,18 @@ h3 {
     border-radius: 0px;
     padding: 25px 10px 10px 10px;
   }
-  .block_cards {
+  .block_cards{
     flex-direction: column;
     margin: 20px 0px 20px -27px;
   }
 
-  .titlebox {
+  .titlebox{
     margin: 0px;
   }
-  .icon {
+  .icon{
     margin: 6px 0px 0px 130px;
   }
+
 
   .box {
     flex-direction: column;
@@ -534,14 +537,14 @@ h3 {
     height: 137px;
     margin: 10px 10px 0px 33px;
   }
-  .card3 {
+  .card3{
     width: 330px;
     height: 190px;
   }
   .picture2 {
     width: 120px;
   }
-  .picture3 {
+  .picture3{
     height: 130px;
   }
   h2 {
