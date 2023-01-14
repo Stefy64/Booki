@@ -19,12 +19,15 @@ nav {
   width: 30%;
   margin-top: 35px;
 }
+.menu {
+  justify-content: flex-end;
+}
 a {
   text-decoration: none;
   color: black;
 }
 .blue2 {
-  margin-left: 45px;
+  margin-left: 90px;
 }
 a:hover {
   color: #0065fc;
@@ -136,12 +139,12 @@ input {
   width: 27px;
 }
 .none {
+  margin-right: 30px;
   color: black;
 }
 #section3 {
   background-color: #f2f2f2;
-  margin-top: 25px;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 0px 15px 20px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -168,7 +171,7 @@ h3 {
   object-fit: cover;
 }
 .card {
-  box-shadow: 0px 1px 5px 0;
+  box-shadow: 0px 0px 3px -2px;
   margin: 15px 35px 15px 15px;
   background-color: white;
   border-radius: 20px;
@@ -178,7 +181,7 @@ h3 {
   margin: -12px 1px 6px 13px;
   line-height: 10px;
 }
-.gras {
+.bold2 {
   font-weight: bold;
 }
 .star_blue {
@@ -187,13 +190,21 @@ h3 {
 }
 .star_blue2 {
   font-size: 14px;
-  margin-top: 60px;
+  margin-top: 45px;
   color: #0065fc;
 }
 .star_blue3 {
   font-size: 14px;
   color: #0065fc;
-  margin-top: 60px;
+  margin-top: 63px;
+}
+.star_blue4 {
+  font-size: 14px;
+  color: #0065fc;
+  margin-top: 45px;
+}
+.grey{
+  color: #f2f2f2;
 }
 .bold {
   font-weight: bold;
@@ -204,26 +215,27 @@ h3 {
 }
 #total_block {
   display: flex;
-  margin-bottom: 45px;
+  margin: 15px 0px 40px 0px;
 }
 #right_block {
+  margin-left: 30px;
   background-color: #f2f2f2;
-  margin: 25px 0px 0px 30px;
   border-radius: 30px;
-  padding: 15px 0px 0px 0px;
+  padding: 15px 0px 0px 25px;
   display: grid;
   justify-items: center;
 }
-.block_cards{
+.block_cards {
   width: max-content;
 }
 .icon {
-  margin: 0px 25px 0px 184px;
+  margin: 0px 0px 0px 115px;
 }
 .card2 {
+  width: 76%;
   height: 140px;
-  box-shadow: 0px 1px 5px 0;
-  margin: 25px;
+  box-shadow: 0px 0px 3px -2px;
+  margin: 0px 0px 25px 25px;
   background-color: white;
   border-radius: 20px;
   display: flex;
@@ -243,7 +255,7 @@ h3 {
 .activity {
   margin-bottom: 35px;
 }
-.nigth{
+.nigth {
   font-size: 14px;
 }
 .night2 {
@@ -255,14 +267,14 @@ h3 {
   margin-left: 15px;
 }
 .titlebox {
-  margin-bottom: -10px;
+  margin: 16px 0px 0px -75px;
 }
 .lcard {
   display: flex;
 }
 .card3 {
   border-radius: 20px;
-  box-shadow: 0px 1px 3px 0;
+  box-shadow: 0px 0px 3px -2px;
   margin: 15px 32px 15px 1px;
 }
 .picture3 {
@@ -301,10 +313,11 @@ h3 {
     width: 100%;
   }
   .menu {
+    justify-content: flex-end;
     font-size: 14px;
   }
   .bleu2 {
-    margin-right: 135px;
+    margin-left: 70px;
   }
   h1 {
     font-size: 18px;
@@ -323,10 +336,10 @@ h3 {
   }
   .icon {
     position: absolute;
-    margin: 0px 0px 0px 569px;
+    margin: 0px 0px 0px 510px;
   }
   #section3 {
-    width: fit-content;
+    width: max-content;
     padding: 15px 13px 25px 26px;
     margin-bottom: 30px;
   }
@@ -345,17 +358,19 @@ h3 {
     height: 120px;
   }
   #right_block {
-    width: fit-content;
-    padding: 25px 0px 0px 0px;
+    width: max-content;
+    padding: 0px 0px 0px 0px;
     display: flex;
     margin: 0px;
   }
   .titlebox {
-    margin-left: 19px;
+    height: 20px;
+    width: 166px;
+    margin: 30px 0px 0px 19px
   }
   .block_cards {
     display: flex;
-    margin: 0px 0px 0px -40px;
+    margin: 0px 0px 0px -116px;
   }
   .infobox2 {
     width: 115px;
@@ -388,6 +403,11 @@ h3 {
   .star_blue3 {
     font-size: 13px;
     margin-top: 52px;
+  }
+  .star_blue4 {
+    font-size: 14px;
+    color: #0065fc;
+    margin-top: 25px;
   }
   .picture3 {
     height: 170px;
@@ -470,7 +490,7 @@ h3 {
     height: 45px;
   }
   .logfilter span {
-    font-size: 9pxpx;
+    font-size: 12px;
     margin-left: 10px;
   }
   .log {
@@ -486,6 +506,11 @@ h3 {
   }
   .star_blue3 {
     margin-top: 55px;
+  }
+  .star_blue4 {
+    font-size: 14px;
+    color: #0065fc;
+    margin-top: 35px;
   }
   .night2 {
     font-size: 15px;
@@ -526,9 +551,9 @@ h3 {
     flex-direction: column;
     margin: 20px 0px 20px -27px;
   }
-
   .titlebox {
     margin: 0px;
+    width: max-content;
   }
   .icon {
     margin: 6px 0px 0px 115px;
@@ -542,6 +567,7 @@ h3 {
     margin-top: -10px;
   }
   .card2 {
+    width: 92%;
     height: 137px;
     margin: 10px 10px 0px 33px;
   }
